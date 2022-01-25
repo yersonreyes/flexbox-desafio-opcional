@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio5</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .contenedor {
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .box {
+        height: 200px;
+        flex-basis: 200px;
+        flex-grow: 1;
+        background-color: red;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .box:nth-of-type(1) {
+        background: url("https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      }
+
+      .box:nth-of-type(2) {
+        background: url("https://images.pexels.com/photos/1980720/pexels-photo-1980720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      }
+
+      .box:nth-of-type(3) {
+        background: url("https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+      }
+
+      .box:nth-of-type(4) {
+        background: url("https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+      }
+      .box:nth-of-type(5) {
+        background: url("https://images.pexels.com/photos/1191377/pexels-photo-1191377.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        flex-basis: 800px;
+        flex-grow: 1;
+        background-color: royalblue;
+      }
+
+      .box:nth-of-type(6) {
+        background: url("https://images.pexels.com/photos/1106476/pexels-photo-1106476.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        align-self: flex-start;
+      }
+
+      .box:nth-of-type(7) {
+        background: url("https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        height: 300px;
+      }
+
+      .box:nth-of-type(8) {
+        background: url("https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        align-self: flex-start;
+      }
+
+      .box:nth-of-type(9) {
+        background: url("https://images.pexels.com/photos/1157255/pexels-photo-1157255.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
